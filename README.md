@@ -1,1 +1,2 @@
 # ssm-recommend
+系统框架的技术方案：用Java语言搭建集成SpringMVC，Spring，Mybatis，Jsoup，Mahout，OKHttp等技术框架的系统。SpringMVC主要处理前端的业务请求，Spring 框架的主要作用在于管理系统中各个层级的对象，负责了所有对象创建，使用和销毁。Mybatis 框架对持久层的数据进行支持，方便对数据库进行操作。JSoup用户解析HTML标签的解析器，内部封装了API，可通过DOM，CSS以及类似于jQuery的操作方法来取出和操作数据。Mahout框架主要用户推荐算法时候调用来基于用户或者商品进行推荐。
